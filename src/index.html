@@ -1,52 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <title>Big Poppa Code Starter Kit</title>
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta content="description" name="description">
-  <link rel="stylesheet" href="/css/styles.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-<meta name="msapplication-tap-highlight" content="no">
-
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
-
+  <link rel="stylesheet" href="scss/navbar.scss">
+  <link rel="stylesheet" href="scss/styles.scss">
   <title>Sarah Moe</title>
-
-<link href="./main.3da94fde.css" rel="stylesheet"></head>
-
-
-
+</head>
 <body>
-  <div id="app"></div>
-
-  
-
-        <div className="footer-container">
-
-
-          <p className="footer-share-icons">
-
-
-              <a href="https://www.linkedin.com" className="fa-icon" title="">
-                  <i className="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-
-          </p>
-
+  <div className="menu-wrap">
+    <input type="checkbox" className="toggler">
+    <div className="hamburger"><div></div></div>
+    <div className="menu">
+      <div>
+        <div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
-
-
-      </nav>
-
+      </div>
     </div>
-  </nav>
-</header>
+  </div>
 
+  <header className="showcase">
+    <div className="container showcase-inner">
+      <h1>Welcome</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas maiores sint impedit delectus quam molestiae explicabo cum facere ratione veritatis.</p>
+      <a href="#" className="btn">Read More</a>
+    </div>
+  </header>
 </body>
-
 </html>
