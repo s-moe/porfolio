@@ -21,8 +21,8 @@ export default function Portfolio(props) {
 							</div>
 							<img
 								className="img-fluid"
-								src="assets/img/portfolio-1.jpg"
-								alt="..."
+								src="/img/DottyImg.png"
+								alt="image of registry application"
 							/>
 						</a>
 					</div>
