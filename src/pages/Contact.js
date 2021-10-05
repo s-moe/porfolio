@@ -2,6 +2,8 @@ import React from 'react';
 import emailjs from 'emailjs-com';
 import ThankYou from './ThankYou';
 import { useHistory } from 'react-router-dom';
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
 
 export default function Contact() {
 	const history = useHistory();
@@ -29,7 +31,7 @@ export default function Contact() {
 
 	return (
 		<div
-			className="ContactPage container col-xxl-8 px-4 py-5"
+			className="ContactPage-container col-xxl-8 px-4 py-5"
 			id="contact-page"
 		>
 			<img
@@ -90,8 +92,23 @@ export default function Contact() {
 					</form>
 
 					<div className="col-lg-12 direct-contact">
-						<h3 className="display-7 fw-bold mb-3">WANT TO EMAIL DIRECTLY?</h3>
-						<h5 className="display-7 lh-1 mb-3">sarah@sarahmoe.com</h5>
+						<h5 className="display-7 lh-1 mb-3 sarah-email">
+							sarah@sarahmoe.com
+						</h5>
+						<a href="https://github.com/s-moe" target="_blank">
+							<FaGithub
+								className="github-icon-contact"
+								size="1.5em"
+								color="grey"
+							/>
+						</a>
+						<a href="https://www.linkedin.com/in/samoe/" target="_blank">
+							<FaLinkedin
+								className="linkedIn-icon-contact"
+								size="1.5em"
+								color="grey"
+							/>
+						</a>
 					</div>
 				</div>
 			</div>

@@ -9,11 +9,11 @@ $pink: #FF66D8;
 .NavBar-default {
   display: flex;
   width: 100%;
-  background-color: $cream;
-  font-family: 'Open Sans', sans-serif;
+  background-color: white;
+
     .nav-link {
       color: $darkBlue;
-      font-family: 'Open Sans', sans-serif;
+
     }
     .nav-link:hover {
       color: $pink;
@@ -28,7 +28,7 @@ $pink: #FF66D8;
   border: 2px solid $pink;
 }
 .hamburger {
-  color: $darkBlue !important;
+  color: $darkBlue;
 }
 .navbar-collapse {
   justify-content: flex-end;

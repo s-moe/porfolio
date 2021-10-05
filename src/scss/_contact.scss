@@ -4,32 +4,49 @@ $cream: #F8F7F9;
 $yellow: #F7EC59;
 $pink: #FF66D8;
 
-#contact-page{
-  font-family: 'Open Sans', sans-serif;
+.ContactPage-container{
+  display: flex;
 }
 
-.container{
-  font-family: 'Open Sans', sans-serif;
-}
 .contact-form {
+
   .form-control{
     border-radius: 0px;
     border-color: $pink !important;
     color: $darkBlue
   }
-  .btn{
-    background-color: $darkBlue;
+  #submit-button{
+    background-color: $pink;
+    border-color: $pink;
+    border-radius: 0px;
   }
+  //this isn't working
   .activeInput{
-    border-color: $pink bold;
+    border-color: $pink bold !important;
   }
-
 }
 
-#submit-button{
-  background-color: $pink !important;
+.direct-contact{
+
+  margin-top: 10px;
+  display: flex;
+  .sarah-email, .github-icon-contact{
+    margin-right: 10px;
+  }
+  // .sarah-email{
+  //   float: left;
+  // }
+  // .github-icon-contact {
+  //   float: left;
+  // }
+  // .linkedIn-icon-contact {
+  //   float: left;
+  // }
 }
 
 .contact-img{
-  border-radius: 50%
+  margin-top: 100px;
+  border-radius: 50%;
+  width: 40%;
+  height: 50%
 }
