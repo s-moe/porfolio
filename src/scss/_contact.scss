@@ -1,0 +1,35 @@
+$darkBlue: #2B2D42;
+$lightBlue: #92DCE5;
+$cream: #F8F7F9;
+$yellow: #F7EC59;
+$pink: #FF66D8;
+
+#contact-page{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+  font-family: 'Open Sans', sans-serif;
+}
+.contact-form {
+  .form-control{
+    border-radius: 0px;
+    border-color: $pink !important;
+    color: $darkBlue
+  }
+  .btn{
+    background-color: $darkBlue;
+  }
+  .activeInput{
+    border-color: $pink bold;
+  }
+
+}
+
+#submit-button{
+  background-color: $pink !important;
+}
+
+.contact-img{
+  border-radius: 50%
+}

@@ -1,6 +1,38 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import "reset";
 @import "grid";
+@import "contact";
+$darkBlue: #2B2D42;
+$lightBlue: #92DCE5;
+$cream: #F8F7F9;
+$yellow: #F7EC59;
+$pink: #FF66D8;
+
+// #submit-button{
+//   background-color: $pink;
+//   border-color: $pink;
+//   border-radius: 0px;
+// }
+//
+// .contact-img{
+//   width: 100%;
+//   max-width: 250px;
+//   height: auto;
+//   border-radius: 50%;
+//   margin-top: 100px;
+// }
+//
+// .contact-form {
+//   .form-control{
+//     border-radius: 0px;
+//     border-color: $pink !important;
+//     color: $darkBlue
+//   }
+//   .activeInput{
+//     border-color: $pink bold;
+//   }
+//
+// }
 //
 // $darkBlue: #2B2D42;
 // $lightBlue: #92DCE5;

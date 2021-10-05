@@ -4,6 +4,8 @@ import About from '../pages/About';
 import Home from '../pages/Home';
 import Resume from '../pages/Resume';
 import Contact from '../pages/Contact';
+import ThankYou from '../pages/ThankYou';
+import Skills from '../pages/Skills';
 
 const routes = [
 	{
@@ -25,6 +27,16 @@ const routes = [
 		Component: Contact,
 		key: 'Contact',
 		path: '/contact'
+	},
+	{
+		Component: ThankYou,
+		key: 'ThankYou',
+		path: '/thankyou'
+	},
+	{
+		Component: Skills,
+		key: 'Skills',
+		path: '/skills'
 	},
 	{
 		Component: Home,

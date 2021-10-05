@@ -18,16 +18,16 @@ export default function NavBar() {
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<GiHamburgerMenu className="hamburger" size="2rem" />
+					<GiHamburgerMenu className="hamburger" size="2em" />
 				</button>
 
 				<div>
 					<div className="Sarah">SARAH MOE</div>
 					<a href="https://github.com/s-moe" target="_blank">
-						<FaGithub className="github-icon" size="1.5rem" color="grey" />
+						<FaGithub className="github-icon" size="1.5em" color="grey" />
 					</a>
 					<a href="https://www.linkedin.com/in/samoe/" target="_blank">
-						<FaLinkedin className="linkedIn-icon" size="1.5rem" color="grey" />
+						<FaLinkedin className="linkedIn-icon" size="1.5em" color="grey" />
 					</a>
 				</div>
 
@@ -36,6 +36,7 @@ export default function NavBar() {
 						key="Home"
 						to="/"
 						className="nav-link nav-item"
+						exact
 						activeClassName="activeLink"
 					>
 						Home
@@ -68,6 +69,16 @@ export default function NavBar() {
 						activeClassName="activeLink"
 					>
 						Resume
+					</NavLink>
+
+					<NavLink
+						key="Skills"
+						to="/skills"
+						className="nav-link nav-item"
+						exact
+						activeClassName="activeLink"
+					>
+						Skills
 					</NavLink>
 
 					<NavLink

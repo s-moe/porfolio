@@ -4,19 +4,20 @@ $cream: #F8F7F9;
 $yellow: #F7EC59;
 $pink: #FF66D8;
 
-.body {
-  background-color: $cream; //NOT WORKING
-}
+
 
 .NavBar-default {
   display: flex;
   width: 100%;
   background-color: $cream;
+  font-family: 'Open Sans', sans-serif;
     .nav-link {
-      color: $darkBlue
+      color: $darkBlue;
+      font-family: 'Open Sans', sans-serif;
     }
     .nav-link:hover {
-      background-color: $yellow
+      color: $pink;
+      font-weight: bold
     }
     .activeLink {
       color: $pink
@@ -35,12 +36,19 @@ $pink: #FF66D8;
 .Sarah {
   font-weight: bold;
   font-size: 28px;
+  color: $darkBlue;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
 }
 .linkedIn-icon {
   margin-left: 10px;
 }
 
-
+.HomePage {
+  margin: 100px;
+  padding: 100px;
+}
 
 
 
