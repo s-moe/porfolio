@@ -1,0 +1,57 @@
+$darkBlue: #2B2D42;
+$lightBlue: #92DCE5;
+$cream: #F8F7F9;
+$yellow: #F7EC59;
+$pink: #FF66D8;
+
+
+
+.NavBar-default {
+  display: flex;
+  width: 100%;
+  background-color: white;
+    .nav-link {
+      color: $darkBlue;
+    }
+    .nav-link:hover {
+      color: $pink;
+      font-weight: bold
+    }
+    .activeLink {
+      color: $pink;
+
+    }
+
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.hamburger:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.contact{
+  border: 2px solid $pink;
+}
+.hamburger {
+  color: $darkBlue;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.Sarah {
+  font-weight: bold;
+  font-size: 28px;
+  color: $darkBlue;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+}
+.linkedIn-icon {
+  margin-left: 10px;
+}
+
+.HomePage {
+  margin: 100px;
+  padding: 100px;
+}

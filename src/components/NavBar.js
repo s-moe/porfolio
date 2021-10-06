@@ -6,21 +6,23 @@ import { FaLinkedin } from 'react-icons/fa';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 export default function NavBar() {
+	const [status, setStatus] = useState('open');
 	return (
 		<div className="ContainerShowSidebar">
 			<nav className="NavBar-default fixed-top navbar-expand-md navbar nav">
-				<button
-					className="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#toggleMobileMenu"
-					aria-controls="toggleMobileMenu"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<GiHamburgerMenu className="hamburger" size="2em" />
-				</button>
-
+				<div className="burger-menu-container">
+					<button
+						className="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#toggleMobileMenu"
+						aria-controls="toggleMobileMenu"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<GiHamburgerMenu className="hamburger" size="2em" />
+					</button>
+				</div>
 				<div>
 					<div className="Sarah">SARAH MOE</div>
 					<a href="https://github.com/s-moe" target="_blank">
