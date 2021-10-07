@@ -5,7 +5,7 @@ export default function Skills() {
 		<>
 			<div className="what-I-can-do">
 				<h2>WHAT I CAN DO</h2>
-				<div className="languages">
+				<div className="languages title">
 					<h3>LANGUAGES</h3>
 					<li>JavaScript</li>
 					<li>Python</li>
@@ -14,7 +14,7 @@ export default function Skills() {
 					<li>JSX</li>
 				</div>
 
-				<div className="frontend">
+				<div className="frontend title">
 					<h3>FRONTEND FRAMEWORKS</h3>
 					<li>React</li>
 					<li>Angular</li>
@@ -22,21 +22,21 @@ export default function Skills() {
 					<li>Bootstrap</li>
 				</div>
 
-				<div className="backend">
+				<div className="backend title">
 					<h3>BACKEND FRAMEWORKS</h3>
 					<li>Express</li>
 					<li>Django</li>
 					<li>Node.js</li>
 				</div>
 
-				<div className="databases">
+				<div className="databases title">
 					<h3>DATABASES</h3>
 					<li>MongoDB</li>
 					<li>MySQL</li>
 					<li>PostgreSQL</li>
 				</div>
 
-				<div className="software">
+				<div className="software title">
 					<h3>SOFTWARE</h3>
 					<li>Jira</li>
 					<li>Slack</li>

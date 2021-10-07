@@ -40,7 +40,7 @@ export default function Portfolio(props) {
 				<a className="portfolio-item" href="#!">
 					<img className="img-fluid" src="/img/DottyImg.png" alt="..." />
 				</a>
-				<p>
+				<p className="noetic-description-p">
 					Worked cross-functionally with a group of 4 developers and 3 UX
 					designers using Jira and Figma to build a mental health community web
 					app using the MERN stack. Built frontend functionality in React based
@@ -55,7 +55,7 @@ export default function Portfolio(props) {
 				<a className="portfolio-item" href="#!">
 					<img className="img-fluid" src="/img/DottyImg.png" alt="..." />
 				</a>
-				<p>
+				<p className="pizza-description-p">
 					Built a web application game with HTML, CSS, and JavaScript utilizing
 					DOM manipulation. The game is designed to help kids practice critical
 					thinking problem solving skills and healthy risk-taking through an

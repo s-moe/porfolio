@@ -22,8 +22,8 @@ export default function AppRouter() {
 						component={() => <Component page={key} />}
 					></Route>
 				))}
-				<Footer />
 			</Switch>
+			<Footer />
 		</Router>
 	);
 }

@@ -57,6 +57,14 @@
 // }
 
 .grid-2 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  // border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row: 1;
@@ -67,7 +75,27 @@
   }
 }
 
+.toollibrary-description-p {
+  z-index: -1;
+  width: 420px;
+  line-height: 20px;
+  display: inline-block;
+  padding: 200px 0px;
+  vertical-align: middle;
+  font-family: "Trebuchet MS";
+  height: 450px
+}
+
+
 .grid-3 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  // border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
   grid-column-start: 1;
   grid-column-end: 3;
   grid-row: 2;
@@ -78,7 +106,26 @@
   }
 }
 
+.noetic-description-p {
+  z-index: -1;
+  width: 420px;
+  line-height: 20px;
+  display: inline-block;
+  padding: 200px 0px;
+  vertical-align: middle;
+  font-family: "Trebuchet MS";
+  height: 450px
+}
+
 .grid-4 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 400px;
+  // border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row: 2;
@@ -87,4 +134,15 @@
     grid-column-end: 5;
     grid-row: 4;
   }
+}
+
+.pizza-description-p {
+  z-index: -1;
+  width: 420px;
+  line-height: 20px;
+  display: inline-block;
+  padding: 200px 0px;
+  vertical-align: middle;
+  font-family: "Trebuchet MS";
+  height: 450px
 }
