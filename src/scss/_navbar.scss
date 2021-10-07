@@ -1,8 +1,4 @@
-$darkBlue: #2B2D42;
-$lightBlue: #92DCE5;
-$cream: #F8F7F9;
-$yellow: #F7EC59;
-$pink: #FF66D8;
+
 
 
 
@@ -14,11 +10,11 @@ $pink: #FF66D8;
       color: $darkBlue;
     }
     .nav-link:hover {
-      color: $pink;
-      font-weight: bold
+      color: $teal;
+      text-decoration: underline;
     }
     .activeLink {
-      color: $pink;
+      color: $lightBlue;
 
     }
 
@@ -30,9 +26,7 @@ $pink: #FF66D8;
   box-shadow: none;
 }
 
-.contact{
-  border: 2px solid $pink;
-}
+
 .hamburger {
   color: $darkBlue;
 }

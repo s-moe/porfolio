@@ -4,11 +4,9 @@
 @import "contact";
 @import "navbar";
 @import "portfolio";
-$darkBlue: #2B2D42;
-$lightBlue: #92DCE5;
-$cream: #F8F7F9;
-$yellow: #F7EC59;
-$pink: #FF66D8;
+@import "utilities";
+
+
 
 // #submit-button{
 //   background-color: $pink;
@@ -36,11 +34,7 @@ $pink: #FF66D8;
 //
 // }
 //
-// $darkBlue: #2B2D42;
-// $lightBlue: #92DCE5;
-// $cream: #F8F7F9;
-// $yellow: #F7EC59;
-// $pink: #FF66D8;
+
 
 // :root {
 //   --primary-color: rgba(13, 110, 139, 0.75);

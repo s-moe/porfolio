@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { HiMenu } from 'react-icons/hi';
-import { FaGithub } from 'react-icons/fa';
-import { FaLinkedin } from 'react-icons/fa';
+
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 export default function NavBar() {
@@ -24,26 +23,18 @@ export default function NavBar() {
 					</button>
 				</div>
 				<div>
-					<div className="Sarah">SARAH MOE</div>
-					<a href="https://github.com/s-moe" target="_blank">
-						<FaGithub className="github-icon" size="1.5em" color="grey" />
-					</a>
-					<a href="https://www.linkedin.com/in/samoe/" target="_blank">
-						<FaLinkedin className="linkedIn-icon" size="1.5em" color="grey" />
-					</a>
-				</div>
-
-				<div className="collapse navbar-collapse" id="toggleMobileMenu">
 					<NavLink
 						key="Home"
 						to="/"
-						className="nav-link nav-item"
+						className="nav-link nav-item Sarah"
 						exact
 						activeClassName="activeLink"
 					>
-						Home
+						SARAH MOE
 					</NavLink>
+				</div>
 
+				<div className="collapse navbar-collapse" id="toggleMobileMenu">
 					<NavLink
 						key="About"
 						to="/about"

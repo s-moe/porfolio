@@ -1,8 +1,4 @@
-$darkBlue: #2B2D42;
-$lightBlue: #92DCE5;
-$cream: #F8F7F9;
-$yellow: #F7EC59;
-$pink: #FF66D8;
+
 
 .ContactPage-container{
   display: flex;
@@ -29,17 +25,17 @@ $pink: #FF66D8;
   }
   .form-control{
     border-radius: 0px;
-    border-color: $pink !important;
+    border-color: $teal !important;
     color: $darkBlue
   }
   #submit-button{
-    background-color: $pink;
-    border-color: $pink;
+    background-color: $teal;
+    border-color: $teal;
     border-radius: 0px;
   }
   //this isn't working
   .activeInput{
-    border-color: $pink bold !important;
+    border-color: $teal bold !important;
   }
 }
 
