@@ -34,7 +34,7 @@ export default function Contact() {
 			className="ContactPage-container col-xxl-8 px-4 py-5"
 			id="contact-page"
 		>
-			<div>
+			<div className="flex-child-img contact-img-div">
 				<img
 					className="contact-img"
 					src="/img/SarahMoeContactImg.jpg"

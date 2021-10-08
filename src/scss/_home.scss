@@ -1,6 +1,8 @@
 .HomePage{
   display: flex;
   flex-direction: row;
+  margin-bottom: 0;
+  padding-bottom: 0;
   @media screen and (max-width: 60em) {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
@@ -15,16 +17,17 @@
   @media screen and (max-width: 60em) {
     max-width: 300%;
     grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 2;
     grid-row: 1;
   }
 }
 .sarah-home-p {
   margin-top: 5rem;
   @media screen and (max-width: 60em) {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row: 1;
+    margin-top: 1rem;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row: 2;
   }
 
 }

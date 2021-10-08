@@ -68,7 +68,7 @@ export default function Portfolio(props) {
 					<img
 						className="img-fluid"
 						src="/img/NoeticTalkImg.png"
-						alt="Image of home page for NOetic Talk app with two recent posts on depression"
+						alt="Image of home page for Noetic Talk app with two recent posts on depression"
 					/>
 				</a>
 				<p className="noetic-description-p">
