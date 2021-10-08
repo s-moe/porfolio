@@ -2,13 +2,27 @@
 
 .ContactPage-container{
   display: flex;
+  @media screen and (max-width: 60em) {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+  }
 }
 
 
 .flex-child-img{
-  flex: 1;
+  // flex: 1;
+  // margin: 2rem;
+  // padding: 2rem;
   margin: 2rem;
   padding: 2rem;
+  max-width: 50%;
+  height: auto;
+  @media screen and (max-width: 60em) {
+    max-width: 300%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 1;
+  }
 
 }
 .flex-child-div{
@@ -16,6 +30,11 @@
   flex: 1;
   margin-left: 2rem;
   padding: 2rem;
+  @media screen and (max-width: 60em) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row: 1;
+  }
 
 }
 
@@ -25,12 +44,12 @@
   }
   .form-control{
     border-radius: 0px;
-    border-color: $pink !important;
+    border-color: $teal;
     color: $darkBlue
   }
   #submit-button{
-    background-color: $pink;
-    border-color: $pink;
+    background-color: $teal;
+    border-color: $teal;
     border-radius: 0px;
   }
   //this isn't working
