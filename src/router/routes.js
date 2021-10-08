@@ -19,11 +19,6 @@ const routes = [
 		path: '/portfolio'
 	},
 	{
-		Component: Resume,
-		key: 'Resume',
-		path: '/resume'
-	},
-	{
 		Component: Contact,
 		key: 'Contact',
 		path: '/contact'

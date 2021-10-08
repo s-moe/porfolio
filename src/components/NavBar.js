@@ -54,15 +54,16 @@ export default function NavBar() {
 						Portfolio
 					</NavLink>
 
-					<NavLink
+					<Link
 						key="Resume"
-						to="/resume"
+						to="documents/Portfolio Rough Draft Resume.docx.pdf"
 						className="nav-link nav-item"
 						exact
 						activeClassName="activeLink"
+						target="_blank"
 					>
 						Resume
-					</NavLink>
+					</Link>
 
 					<NavLink
 						key="Skills"

@@ -1,7 +1,11 @@
 .what-I-can-do {
   margin-top: 200px;
+  display: flex;
+
 }
 .title {
+  padding: 10px;
+  margin: 20px;
   background-color: $teal;
   border-color: $teal;
   color: white;
@@ -9,4 +13,19 @@
 }
 li {
   list-style-type: none;
+  margin-left: 5rem;
+  // text-align: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }

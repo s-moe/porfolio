@@ -5,7 +5,7 @@ import { FaLinkedin } from 'react-icons/fa';
 export default function Footer() {
 	return (
 		<div className="container Footer">
-			<div className="fixed-bottom">
+			<div className="footer">
 				<a href="https://github.com/s-moe" target="_blank">
 					<FaGithub className="github-icon" size="2em" color="grey" />
 				</a>
