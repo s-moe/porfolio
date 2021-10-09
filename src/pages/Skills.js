@@ -19,7 +19,6 @@ export default function Skills() {
 					<div className="frontend">
 						<h3 className="title">FRONTEND FRAMEWORKS</h3>
 						<li>React</li>
-						<li>Angular</li>
 						<li>Vue</li>
 						<li>Bootstrap</li>
 					</div>
