@@ -1,9 +1,6 @@
 
-
-
-
 .AboutPage {
-  margin-top: 6rem;
+  margin-top: 5rem;
   display: flex;
   flex-wrap: wrap;
   width:100%;
@@ -22,15 +19,7 @@
 .sarah-about-p {
   flex:1;
   padding:2%;
-  // width: 300px;
-  // height: 300px;
-  // margin-top: 5rem;
-  // margin-right: 5rem;
-  // @media screen and (max-width: 60em) {
-  //   grid-column-start: 1;
-  //   grid-column-end: 5;
-  //   grid-row: 1;
-  // }
+
 
 }
 
@@ -43,7 +32,7 @@
   }
   p{
     flex: 1;
-    padding: 4%;
+    padding: 1%;
   }
     // img a width of 95vw; 2% padding; ps a flex:1; padding 4% to p tags;
 }
@@ -57,7 +46,7 @@
 @media (min-width:1025px) {
   .AboutPage {
   display: flex;
-  border: 1px solid black;
+
     > div {
       flex:1;
     }
@@ -68,19 +57,4 @@
   flex:1;
 }
 
-  .sarah-about-p {
-  display: flex;
-  flex-wrap: wrap;
-  border: 1px solid purple;
-    > p{
-      flex:1;
-      padding: 1%;
-      border: 1px solid orange;
-    }
-  }
 }
-
-// /* hi-res laptops and desktops */
-// @media (min-width:1281px) {
-
-// }

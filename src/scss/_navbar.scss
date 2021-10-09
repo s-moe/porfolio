@@ -1,18 +1,22 @@
 
-
-
-
 .NavBar-default {
   display: flex;
   width: 100%;
   background-color: white;
+  // transform: translate(-50%, -50%);
     .nav-link {
       color: $darkBlue;
     }
     .nav-link:hover {
       color: $teal;
-      text-decoration: underline;
+      text-decoration: none;
+      transition: border-bottom .2s, border-left .4s, border-top .6s, border-right .9s;
+      border-bottom: 2px solid $lightpurple;
+      border-left: 2px solid $lightpurple;
+      border-top: 2px solid $lightpurple;
+      border-right: 2px solid $lightpurple;
     }
+
     .activeLink {
       color: $magenta;
 

@@ -1,33 +1,46 @@
 .HomePage{
+  margin-top: 5rem;
   display: flex;
-  flex-direction: row;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  @media screen and (max-width: 60em) {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-  }
+  flex-wrap: wrap;
+  width:100%;
+  flex:1;
+  padding: 4%;
 }
 .sarah-home-img {
-
-  margin: 2rem;
-  padding: 2rem;
-  max-width: 50%;
-  height: auto;
-  @media screen and (max-width: 60em) {
-    max-width: 300%;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row: 1;
-  }
+  width: 95vw;
+  padding:2%;
+  flex:1;
 }
 .sarah-home-p {
-  margin-top: 5rem;
-  @media screen and (max-width: 60em) {
-    margin-top: 1rem;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row: 2;
-  }
+  flex:1;
+  padding:2%;
 
+}
+
+@media (min-width:320px)  {
+  .sarah-home-img{
+    width: 95vw;
+    padding:2%;
+    flex:1;
+  }
+  p{
+    flex: 1;
+    padding: 1%;
+  }
+    // img a width of 95vw; 2% padding; ps a flex:1; padding 4% to p tags;
+}
+
+@media (min-width:1025px) {
+  .HomePage {
+  display: flex;
+
+    > div {
+      flex:1;
+    }
+}
+.sarah-home-img{
+  width: 40vw;
+  padding:2%;
+  flex:1;
+  }
 }
