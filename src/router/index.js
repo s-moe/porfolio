@@ -7,12 +7,7 @@ import routes from './routes';
 export default function AppRouter() {
 	return (
 		<Router>
-			<Switch>
-				{routes.map(({ Component, key, path }) => (
-					<NavBar key={key} exact path={path}></NavBar>
-				))}
-			</Switch>
-
+			<NavBar />
 			<Switch>
 				{routes.map(({ Component, key, path }) => (
 					<Route

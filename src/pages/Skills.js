@@ -59,10 +59,7 @@ export default function Skills() {
 					<div className="softskills">
 						<h2 className="title">NON-TECHNICAL</h2>
 						<li>Creative problem solving</li>
-						<li>
-							Award-winning communication (that's right, I've won an award for
-							my communication skills)
-						</li>
+						<li>Award-winning communication (that's right, I won an award)</li>
 						<li>Detail-oriented</li>
 						<li>Ingenuity</li>
 						<li>Curiosity</li>

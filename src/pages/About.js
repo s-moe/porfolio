@@ -4,11 +4,13 @@ import { Link } from 'react-router-dom';
 export default function About(props) {
 	return (
 		<div className="AboutPage">
-			<img
-				className="about-img"
-				src="/img/SarahMoeAboutImg.jpg"
-				alt="image of Sarah Moe with a colorful background"
-			/>
+			<div>
+				<img
+					className="about-img"
+					src="/img/SarahMoeAboutImg.jpg"
+					alt="image of Sarah Moe with a colorful background"
+				/>
+			</div>
 			<div className="sarah-about-p">
 				<p>
 					Hi, I’m Sarah Moe, a software engineer with a background in law. I
