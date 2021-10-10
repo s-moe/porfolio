@@ -7,6 +7,7 @@ export default function Skills() {
 				<h3 className="title">LANGUAGES</h3>
 				<li>JavaScript</li>
 				<li>Python</li>
+				<li>SQL</li>
 				<li>CSS</li>
 				<li>HTML</li>
 				<li>JSX</li>
