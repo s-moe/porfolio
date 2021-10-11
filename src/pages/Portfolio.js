@@ -19,7 +19,8 @@ export default function Portfolio(props) {
 					Created and built a responsive registry web app utilizing MongoDB,
 					Express, React, and Node.js. Users can login and create their own
 					individual registry with unique listings that they can edit, update,
-					and/or delete.{' '}
+					and/or delete. View my repo{' '}
+					<a href="https://github.com/s-moe/registry">here</a>.
 				</p>
 			</div>
 

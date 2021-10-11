@@ -12,12 +12,12 @@ export default function Home(props) {
 				/>
 			</div>
 			<div className="sarah-home-p">
-				<h1>Hello, I’m Sarah Moe, </h1>{' '}
-				<p>
+				<h1 className="intro-p">Hello, I’m Sarah Moe, </h1>{' '}
+				<p className="home-p">
 					a fullstack software engineer with a background in law. Learn more
 					about me <Link to="/about">here.</Link>{' '}
 				</p>
-				<p>
+				<p className="contact-p">
 					<Link to="/contact">Contact me.</Link>
 				</p>
 			</div>

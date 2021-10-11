@@ -29,14 +29,6 @@ export default function Contact() {
 
 	return (
 		<div className="ContactPage-container" id="contact-page">
-			<div>
-				<img
-					className="contact-img"
-					src="/img/SarahMoeContactImg.jpg"
-					alt="image of Sarah Moe"
-				/>
-			</div>
-
 			<div className="flex-child-div">
 				<form className="contact-form row g-3" onSubmit={sendEmail}>
 					<h3>Get in touch.</h3>
@@ -91,6 +83,14 @@ export default function Contact() {
 				<div className="direct-contact">
 					<h5 className="sarah-email">sarah@sarahmoe.com</h5>
 				</div>
+			</div>
+
+			<div>
+				<img
+					className="contact-img"
+					src="/img/SarahMoeContactImg.jpg"
+					alt="image of Sarah Moe"
+				/>
 			</div>
 		</div>
 	);

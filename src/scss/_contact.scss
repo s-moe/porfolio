@@ -42,6 +42,8 @@
 .contact-form {
   h3{
     color: $darkBlue;
+    font-family: 'Quicksand';
+    font-weight: bolder;
   }
   .form-control{
     border-radius: 0px;
@@ -62,7 +64,8 @@
 .direct-contact{
   margin-top: 10px;
   display: flex;
-  .sarah-email, .github-icon-contact{
+  font-family: 'Quicksand';
+  .sarah-email {
     margin-right: 10px;
     // margin-left: 0px;
   }

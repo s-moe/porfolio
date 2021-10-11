@@ -28,7 +28,7 @@ export default function About(props) {
 					.
 				</p>
 				<p>
-					Working remotely for the past 10 years has strengthened my
+					Working remotely for the past 8 years has strengthened my
 					communication skills (as well as my cooking skills). When I’m not
 					coding I am learning something new: TypeScript, skimboarding, and
 					sewing are my current areas of interest.
