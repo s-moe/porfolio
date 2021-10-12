@@ -4,23 +4,28 @@ export default function Portfolio(props) {
 	return (
 		<div className="container">
 			<div className="grid-1 grow">
-				<a
-					className="portfolio-item"
-					href="https://sarah-moe-project3.herokuapp.com/"
-					target="_blank"
-				>
-					<img
-						className="img-fluid"
-						src="/img/DottyImg.png"
-						alt="image of registry application"
-					/>
-				</a>
+				<img
+					className="img-fluid"
+					src="/img/DottyImg.png"
+					alt="image of registry application"
+				/>
+
 				<p className="dotty-description-p">
-					Created and built a responsive registry web app utilizing MongoDB,
-					Express, React, and Node.js. Users can login and create their own
-					individual registry with unique listings that they can edit, update,
-					and/or delete. View my repo{' '}
-					<a href="https://github.com/s-moe/registry">here</a>.
+					Created and built a responsive registry{' '}
+					<a
+						className="portfolio-item"
+						href="https://sarah-moe-project3.herokuapp.com/"
+						target="_blank"
+					>
+						web app
+					</a>{' '}
+					utilizing MongoDB, Express, React, and Node.js. Users can login and
+					create their own individual registry with unique listings that they
+					can edit, update, and/or delete. View my repo{' '}
+					<a href="https://github.com/s-moe/registry" target="_blank">
+						here
+					</a>
+					.
 				</p>
 			</div>
 
