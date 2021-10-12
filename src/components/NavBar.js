@@ -23,13 +23,7 @@ export default function NavBar() {
 					</button>
 				</div>
 				<div>
-					<NavLink
-						key="Home"
-						to="/"
-						className="nav-link nav-item Sarah"
-						exact
-						activeClassName="activeLink"
-					>
+					<NavLink key="Home" to="/" className="nav-link nav-item Sarah">
 						SARAH MOE
 					</NavLink>
 				</div>
@@ -39,6 +33,7 @@ export default function NavBar() {
 						key="About"
 						to="/about"
 						className="nav-link nav-item"
+						exact
 						activeClassName="activeLink"
 					>
 						About
@@ -59,7 +54,6 @@ export default function NavBar() {
 						to="documents/Portfolio Rough Draft Resume.docx.pdf"
 						className="nav-link nav-item"
 						exact
-						activeClassName="activeLink"
 						target="_blank"
 					>
 						Resume
