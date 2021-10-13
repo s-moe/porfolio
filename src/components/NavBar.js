@@ -9,19 +9,18 @@ export default function NavBar() {
 	return (
 		<div className="ContainerShowSidebar">
 			<nav className="NavBar-default fixed-top navbar-expand-md navbar nav">
-				<div className="burger-menu-container">
-					<button
-						className="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#toggleMobileMenu"
-						aria-controls="toggleMobileMenu"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<GiHamburgerMenu className="hamburger" size="2em" />
-					</button>
-				</div>
+				<button
+					className="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#toggleMobileMenu"
+					aria-controls="toggleMobileMenu"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<GiHamburgerMenu className="hamburger" size="2em" />
+				</button>
+
 				<div>
 					<NavLink key="Home" to="/" className="nav-link nav-item Sarah">
 						SARAH MOE
@@ -33,8 +32,8 @@ export default function NavBar() {
 						key="About"
 						to="/about"
 						className="nav-link nav-item"
-						exact
-						activeClassName="activeLink"
+						data-bs-toggle="collapse"
+						data-bs-target=".navbar-collapse"
 					>
 						About
 					</NavLink>
