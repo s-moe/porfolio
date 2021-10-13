@@ -21,9 +21,9 @@
 
 .grid-1 {
 
-  position: relative;
-  top: 0px;
-  left: 0px;
+  // position: relative;
+  margin-top: 0px;
+  margin-left: 0px;
   width: 400px;
   height: 400px;
   overflow: hidden;
@@ -43,7 +43,7 @@
 .img-fluid{
   width: 400px;
   height: 400px;
-  position: absolute;
+  // position: absolute;
 
 }
 .img-fluid:hover{
@@ -52,19 +52,65 @@
 
 
 }
+
+.overlay{
+  opacity:0;
+  width:100%;
+  height:100%;
+  background: rgba(255,255,255,1);
+}
+.dotty-img:hover .overlay{
+  opacity:1;
+  transition:2s;
+
+}
+.dotty-img{
+  background: url('/img/DottyImg.png');
+  background-size: cover;
+}
+
 .dotty-description-p{
-  // z-index: -1;
-  width: 400px;
+  // z-index: 99;
+  width: 100%;
+  height: 100%;
   line-height: 20px;
-  display: inline-block;
+  // display: inline-block;
   padding: 100px 0px;
   vertical-align: middle;
   font-family: "Open Sans";
-  height: 450px;
   overflow:visible;
-  pointer-events:none;
-  background:none !important;
+  // pointer-events:none;
+  // background:none !important;
 
+}
+
+.tool-img:hover .overlay{
+  opacity:1;
+  transition:2s;
+
+}
+.tool-img{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU5ERB6qWA93JncvbH1m5igySrZ3i3n1UmCSqGaacYX15_gT3PvS6LaOraJ04yEQ99-80&usqp=CAU");
+  background-size: cover;
+}
+
+.pizza-img:hover .overlay{
+  opacity:1;
+  transition:2s;
+}
+.pizza-img{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3O4ZfPxVCuawywlFacJm_ahIfp-zUm-e4wA&usqp=CAU");
+  background-size: cover;
+}
+
+.noetic-img:hover .overlay{
+  opacity:1;
+  transition:2s;
+}
+
+.noetic-img{
+  background: url('/img/NoeticTalkImg.png');
+  background-size: cover;
 }
 
 

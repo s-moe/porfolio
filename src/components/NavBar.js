@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { HiMenu } from 'react-icons/hi';
+import NavLink from './SuperLink';
 
 import { GiHamburgerMenu } from 'react-icons/gi';
 
@@ -22,18 +23,22 @@ export default function NavBar() {
 				</button>
 
 				<div>
-					<NavLink key="Home" to="/" className="nav-link nav-item Sarah">
+					<NavLink
+						key="Home"
+						to="/"
+						classes={['nav-link', 'nav-item', 'Sarah']}
+					>
 						SARAH MOE
 					</NavLink>
 				</div>
 
 				<div className="collapse navbar-collapse" id="toggleMobileMenu">
 					<NavLink
+						classes={['nav-link', 'nav-item']}
+						toggle="collapse"
+						target=".navbar-collapse"
 						key="About"
 						to="/about"
-						className="nav-link nav-item"
-						data-bs-toggle="collapse"
-						data-bs-target=".navbar-collapse"
 					>
 						About
 					</NavLink>
@@ -41,7 +46,9 @@ export default function NavBar() {
 					<NavLink
 						key="Portfolio"
 						to="/portfolio"
-						className="nav-link nav-item"
+						classes={['nav-link', 'nav-item']}
+						toggle="collapse"
+						target=".navbar-collapse"
 						exact
 						activeClassName="activeLink"
 					>
@@ -61,7 +68,9 @@ export default function NavBar() {
 					<NavLink
 						key="Skills"
 						to="/skills"
-						className="nav-link nav-item"
+						classes={['nav-link', 'nav-item']}
+						toggle="collapse"
+						target=".navbar-collapse"
 						exact
 						activeClassName="activeLink"
 					>
@@ -71,7 +80,9 @@ export default function NavBar() {
 					<NavLink
 						key="Contact"
 						to="/contact"
-						className="nav-link nav-item contact"
+						classes={['nav-link', 'nav-item']}
+						toggle="collapse"
+						target=".navbar-collapse"
 						exact
 						activeClassName="activeLink"
 					>
