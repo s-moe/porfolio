@@ -18,8 +18,10 @@
 }
 
 .sarah-about-p {
+  font-family: 'Open Sans';
   flex:1;
   padding:2%;
+  line-height: 1.5em;
 
 
 }
@@ -34,6 +36,7 @@
   p{
     flex: 1;
     padding: 1%;
+
   }
     // img a width of 95vw; 2% padding; ps a flex:1; padding 4% to p tags;
 }

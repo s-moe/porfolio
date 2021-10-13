@@ -14,11 +14,13 @@
 
 .intro-p {
   // font-family: 'Kaushan Script';
-  font-family: 'Quicksand';
+  font-family: 'Quicksand' !important;
+  // font-size: 4em;
 }
 
+
 .sarah-home-p {
-  border-color: 1px solid red;
+  
   font-family: 'Open Sans';
   flex:1;
   padding:2%;

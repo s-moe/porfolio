@@ -31,7 +31,7 @@ export default function Contact() {
 		<div className="ContactPage-container" id="contact-page">
 			<div className="flex-child-div">
 				<form className="contact-form row g-3" onSubmit={sendEmail}>
-					<h3>Get in touch.</h3>
+					<h3 className="h3">Get in touch.</h3>
 					<div className="mb-3 pl-2  form-floating col-md-12">
 						<input
 							type="text"

@@ -14,11 +14,15 @@
   border-color: $teal;
   color: white;
   box-shadow: 12px 12px 2px 1px $lightpurple;
+  font-family: 'Open Sans';
+  font-size: 2em;
 }
 
 li {
   list-style-type: none;
   margin-left: 5rem;
+  font-family: 'Open Sans';
+  line-height: 1.5em;
 }
 
 @media screen and (max-width: 780px) {
@@ -32,6 +36,6 @@ li {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-// .Footer{
-//   margin-top: 10rem;
-// }
+.Footer{
+  margin-top: 9.5em;
+}
