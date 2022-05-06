@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Contact from './Contact.js';
 
 export default function About(props) {
 	return (
@@ -37,6 +38,9 @@ export default function About(props) {
 					{' '}
 					<Link to="/contact">Say hello.</Link>
 				</p>
+			</div>
+			<div>
+				<Contact />
 			</div>
 		</div>
 	);
