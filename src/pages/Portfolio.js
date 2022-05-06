@@ -37,7 +37,7 @@ export default function Portfolio(props) {
 				</div>
 			</div>
 
-			<div className="grid-3 pizza-img grow">
+			<div className="grid-3 pizza-img grow grid-children">
 				<div className="overlay">
 					<p className="pizza-description-p">
 						Built a web application game with HTML, CSS, and JavaScript
